@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/insertbg"
+android:padding="10dp">
+
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tilid">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Matkul"
+        android:id="@+id/inp_id"/>
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tilnama_matkul">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Matkul"
+        android:id="@+id/inp_nama_matkul"/>
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tilhari">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="hari"
+        android:id="@+id/inp_hari"/>
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tilruangan">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ruangan"
+        android:id="@+id/inp_ruangan"/>
+</android.support.design.widget.TextInputLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Batal"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/cancel"
+        android:id="@+id/btn_cancel"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Simpan"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/save"
+        android:id="@+id/btn_simpan"/>
+
+</LinearLayout>
+
+
+</LinearLayout>

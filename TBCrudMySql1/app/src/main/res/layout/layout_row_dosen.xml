@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginBottom="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingLeft="140dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this for nik"
+                android:id="@+id/nik"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this for nama Dosen"
+                android:layout_below="@id/nik"
+                android:id="@+id/nama_dosen"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this for matakuliah"
+                android:layout_below="@id/nama_dosen"
+                android:id="@+id/matakuliah"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this for prodi1"
+                android:layout_below="@id/matakuliah"
+                android:id="@+id/prodi1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
